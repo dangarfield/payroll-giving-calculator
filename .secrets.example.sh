@@ -1,0 +1,5 @@
+## . ./.secrets
+
+export NOW_TOKEN_PAYROLL=<EXAMPLE>
+
+echo 'PAYROLL GIVING ENV VARS SET'
