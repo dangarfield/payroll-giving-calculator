@@ -4,7 +4,38 @@
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla venenatis lorem eu sem condimentum finibus. Suspendisse egestas
     dignissim ante, at scelerisque felis. Cras urna diam, sodales a lacinia et, placerat a magna. Ut quis finibus nunc, ut
     dapibus leo. Etiam et ipsum id magna auctor bibendum.</p>
-<input type="text" id="salary" value="" size="40" class="wpcf7-form-control wpcf7-text" placeholder="Your salary">
+
+
+<div class="one_third">
+    <label for="salary" class="salary-label">Enter your salary:</label>
+</div>
+<div class="two_third last">
+    <div class="input-wrapper">
+        <input type="text" name="salary" id="salary" value="" size="40" class="wpcf7-form-control wpcf7-text" placeholder="Your salary">
+        <label for="salary" class="fa fa-gbp input-icon"></label>
+    </div>
+    <style type="text/css">
+        .salary-label {
+            padding-top: 13px;
+            float: right;
+        }
+
+        .input-icon {
+            position: absolute;
+            left: 12px;
+            top: calc(50% - 15px);
+        }
+
+        input {
+            padding-left: 27px !important;
+        }
+
+        .input-wrapper {
+            position: relative;
+        }
+    </style>
+</div>
+
 <div class="calc" style="display:none;">
 
     <p>Basic rate tax:
