@@ -17,4 +17,4 @@ Alternatively, get content from the self-contained html snippet to add into work
 - Early edition for proof of concept for zeo church
 - More styling required
 - Optional additional items to set pension and student loan etc
-- Also, more details to add for
+- Also, more details to add for how to apply etc
