@@ -1,116 +1,192 @@
 <!-- DG - START -->
 
-<h2>Payroll Giving Calculator</h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla venenatis lorem eu sem condimentum finibus. Suspendisse egestas
-    dignissim ante, at scelerisque felis. Cras urna diam, sodales a lacinia et, placerat a magna. Ut quis finibus nunc, ut
-    dapibus leo. Etiam et ipsum id magna auctor bibendum.</p>
+<div class="vc_row row-internal row-container">
+    <div class="row row-child">
+        <div class="wpb_row row-inner">
+            <div class="wpb_column pos-top pos-center align_left column_child col-lg-12 single-internal-gutter">
+                <div class="uncol style-light">
+                    <div class="uncoltable">
+                        <div class="uncell no-block-padding">
+                            <div class="uncont">
+                                <div class="vc_custom_heading_wrap ">
+                                    <div class="heading-text el-text">
+                                        <h2 class="h2">
+                                            <span>Give as you earn</span>
+                                        </h2>
+                                    </div>
+                                    <div class="clear">
+                                    </div>
+                                </div>
+                                <div class="uncode_text_column">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla venenatis lorem eu
+                                        sem condimentum finibus. Suspendisse egestas dignissim ante, at scelerisque
+                                        felis. Cras urna diam, sodales a lacinia et, placerat a magna. Ut quis finibus
+                                        nunc, ut dapibus leo. Etiam et ipsum id magna auctor bibendum.</p>
+                                </div>
+                                <div class="wpb_row row-inner cols-md-responsive">
+                                    <div
+                                        class="wpb_column pos-top pos-left align_left column_parent col-lg-4 col-md-33 half-internal-gutter">
+                                        <div class="uncol">
+                                            <label for="salary" class="salary-label">Enter your salary:</label>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="wpb_column pos-top pos-left align_left column_parent col-lg-8 col-md-33 half-internal-gutter">
+                                        <div class="uncol">
+                                            <div class="input-wrapper">
+                                                <input type="text" name="salary" id="salary" value="" size="40"
+                                                    class="wpcf7-form-control wpcf7-text" placeholder="Your salary">
+                                                <label for="salary" class="fa fa-gbp input-icon"></label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
 
 
-<div class="one_third">
-    <label for="salary" class="salary-label">Enter your salary:</label>
-</div>
-<div class="two_third last">
-    <div class="input-wrapper">
-        <input type="text" name="salary" id="salary" value="" size="40" class="wpcf7-form-control wpcf7-text" placeholder="Your salary">
-        <label for="salary" class="fa fa-gbp input-icon"></label>
-    </div>
-    <style type="text/css">
-        .salary-label {
-            padding-top: 13px;
-            float: right;
-        }
+                                <div class="calc" style="display:none;">
 
-        .input-icon {
-            position: absolute;
-            left: 12px;
-            top: calc(50% - 15px);
-        }
+                                    <p>Basic rate tax:
+                                        <span class="tax-basic"></span>
+                                    </p>
+                                    <p>Higher rate tax:
+                                        <span class="tax-higher"></span>
+                                    </p>
+                                    <p>Additional rate tax:
+                                        <span class="tax-additional"></span>
+                                    </p>
+                                    <p>Total tax:
+                                        <span class="tax-total"></span>
+                                    </p>
+                                    <p>National Insurance:
+                                        <span class="ni"></span>
+                                    </p>
+                                    <p>Take Home Net:
+                                        <span class="take-home-net"></span>
+                                    </p>
+                                    <p>Tithe:
+                                        <span class="tithe"></span>
+                                    </p>
+                                    <p>Gift Aid:
+                                        <span class="gift-aid"></span>
+                                    </p>
+                                    <p>Total Tithe Recieved:
+                                        <span class="tithe-total"></span>
+                                    </p>
+                                    <p>Take Home Post Tithe:
+                                        <span class="take-home-post"></span>
+                                    </p>
+                                    <p>Payroll Giving Tithe:
+                                        <span class="tithe-payroll"></span>
+                                    </p>
+                                    <p>Payroll Giving Benefit:
+                                        <span class="payroll-benefit"></span>
+                                    </p>
+                                </div>
+                                <div class="wpb_row row-inner cols-md-responsive">
+                                    <div
+                                        class="wpb_column pos-top pos-left align_left column_parent col-lg-4 col-md-33 half-internal-gutter">
+                                        <div class="uncol">
+                                            <div class="sf-count-asset">
+                                                <div class="count-number display-take-home h1" data-from="0" data-to="0"
+                                                    data-speed="500" data-refresh-interval="25" data-prefix="£"
+                                                    data-suffix="" data-with-commas="true">0</div>
+                                                <div class="count-divider">
+                                                    <span style="width: 50px;"></span>
+                                                </div>
+                                                <h6 class="count-subject" style="opacity: 1; bottom: 0px;">Net take home
+                                                    pay
+                                                    after tithe (monthly)</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="wpb_column pos-top pos-left align_left column_parent col-lg-4 col-md-33 half-internal-gutter">
+                                        <div class="uncol">
+                                            <div class="sf-count-asset">
+                                                <div class="count-number display-payroll-tithe h1" data-from="0"
+                                                    data-to="0" data-speed="750" data-refresh-interval="25"
+                                                    data-prefix="£" data-suffix="" data-with-commas="true">0</div>
+                                                <div class="count-divider">
+                                                    <span style="width: 50px;"></span>
+                                                </div>
+                                                <h6 class="count-subject" style="opacity: 1; bottom: 0px;">Total
+                                                    received by
+                                                    church through payroll giving
+                                                </h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="wpb_column pos-top pos-left align_left column_parent col-lg-4 col-md-33 half-internal-gutter">
+                                        <div class="uncol">
+                                            <div class="sf-count-asset">
+                                                <div class="count-number display-payroll-benefit h1" data-from="0"
+                                                    data-to="0" data-speed="1000" data-refresh-interval="25"
+                                                    data-prefix="£" data-suffix="" data-with-commas="true">0</div>
+                                                <div class="count-divider">
+                                                    <span style="width: 50px;"></span>
+                                                </div>
+                                                <h6 class="count-subject" style="opacity: 1; bottom: 0px;">Total benefit
+                                                    over gift aid</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <style>
+                                        .salary-label {
+                                            padding-top: 13px;
+                                            float: right;
+                                        }
 
-        input {
-            padding-left: 27px !important;
-        }
+                                        .input-icon {
+                                            position: absolute;
+                                            left: 12px;
+                                            top: calc(50% - 10px);
+                                        }
 
-        .input-wrapper {
-            position: relative;
-        }
-    </style>
-</div>
+                                        input {
+                                            padding-left: 27px !important;
+                                        }
 
-<div class="calc" style="display:none;">
+                                        .input-wrapper {
+                                            position: relative;
+                                        }
 
-    <p>Basic rate tax:
-        <span class="tax-basic"></span>
-    </p>
-    <p>Higher rate tax:
-        <span class="tax-higher"></span>
-    </p>
-    <p>Additional rate tax:
-        <span class="tax-additional"></span>
-    </p>
-    <p>Total tax:
-        <span class="tax-total"></span>
-    </p>
-    <p>National Insurance:
-        <span class="ni"></span>
-    </p>
-    <p>Take Home Net:
-        <span class="take-home-net"></span>
-    </p>
-    <p>Tithe:
-        <span class="tithe"></span>
-    </p>
-    <p>Gift Aid:
-        <span class="gift-aid"></span>
-    </p>
-    <p>Total Tithe Recieved:
-        <span class="tithe-total"></span>
-    </p>
-    <p>Take Home Post Tithe:
-        <span class="take-home-post"></span>
-    </p>
-    <p>Payroll Giving Tithe:
-        <span class="tithe-payroll"></span>
-    </p>
-    <p>Payroll Giving Benefit:
-        <span class="payroll-benefit"></span>
-    </p>
-</div>
-<div class="spb_wrapper clearfix">
-    <div class="one_third">
-        <p>&nbsp;</p>
-        <div class="sf-count-asset">
-            <div class="count-number display-take-home" data-from="0" data-to="0" data-speed="500" data-refresh-interval="25" data-prefix="£"
-                data-suffix="" data-with-commas="true">0</div>
-            <div class="count-divider">
-                <span style="width: 50px;"></span>
+                                        .sf-count-asset {
+                                            text-align: center;
+                                        }
+
+                                        .count-number:before {
+                                            content: "£";
+                                        }
+
+                                        .count-divider {
+                                            width: 100%;
+                                            text-align: center;
+                                            height: 1px;
+                                            padding-top: 0px;
+                                            padding-bottom: 10px;
+                                        }
+
+                                        .count-divider span {
+                                            background: #e4e4e4;
+                                            width: 0px;
+                                            height: 1px;
+                                            display: inline-block;
+                                        }
+                                    </style>
+                                    <div class="clearboth"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <h6 class="count-subject" style="opacity: 1; bottom: 0px;">Net take home pay after tithe (monthly)</h6>
         </div>
     </div>
-    <div class="one_third">
-        <p>&nbsp;</p>
-        <div class="sf-count-asset">
-            <div class="count-number display-payroll-tithe" data-from="0" data-to="0" data-speed="750" data-refresh-interval="25" data-prefix="£"
-                data-suffix="" data-with-commas="true">0</div>
-            <div class="count-divider">
-                <span style="width: 50px;"></span>
-            </div>
-            <h6 class="count-subject" style="opacity: 1; bottom: 0px;">Total received by church through payroll giving</h6>
-        </div>
-    </div>
-    <div class="one_third last">
-        <p>&nbsp;</p>
-        <div class="sf-count-asset">
-            <div class="count-number display-payroll-benefit" data-from="0" data-to="0" data-speed="1000" data-refresh-interval="25"
-                data-prefix="£" data-suffix="" data-with-commas="true">0</div>
-            <div class="count-divider">
-                <span style="width: 50px;"></span>
-            </div>
-            <h6 class="count-subject" style="opacity: 1; bottom: 0px;">Total benefit over gift aid</h6>
-        </div>
-    </div>
-    <div class="clearboth"></div>
 </div>
+
+
+
 
 <script>
     const TAX_BASIC = 11850
@@ -230,19 +306,154 @@
         console.log('calculated')
     }
     jQuery(document).ready(function ($) {
-        var previousSalary = 0
-        $("#salary").keyup(function (event) {
-            var salary = $(this).val()
-            salary = Number(salary.replace(/[^0-9.]/g,
-                ''))
-            if (previousSalary !== salary) {
-                previousSalary = salary
-                $(this).val(salary)
-                initCalc($, salary)
-            }
+            console.log('DG READY')
+            var previousSalary = 0
+            $("#salary").keyup(function (event) {
+                var salary = $(this).val()
+                salary = Number(salary.replace(/[^0-9.]/g,
+                    ''))
+                if (previousSalary !== salary) {
+                    previousSalary = salary
+                    $(this).val(salary)
+                    initCalc($, salary)
+                }
+            })
+            $("#salary").val(60000)
+            setTimeout(function () {
+                console.log('DG INIT')
+                initCalc(jquery, jquery("#salary").val())
+            }, 1000)
+
         })
-        $("#salary").val(60000)
-        initCalc($, $("#salary").val())
-    })
+        (function (factory) {
+            if (typeof define === 'function' && define.amd) {
+                // AMD
+                define(['jquery'], factory);
+            } else if (typeof exports === 'object') {
+                // CommonJS
+                factory(require('jquery'));
+            } else {
+                // Browser globals
+                factory(jQuery);
+            }
+        }(function ($) {
+            var CountTo = function (element, options) {
+                this.$element = $(element);
+                this.options = $.extend({}, CountTo.DEFAULTS, this.dataOptions(), options);
+                this.init();
+            };
+
+            CountTo.DEFAULTS = {
+                from: 0, // the number the element should start at
+                to: 0, // the number the element should end at
+                speed: 1000, // how long it should take to count between the target numbers
+                refreshInterval: 100, // how often the element should be updated
+                decimals: 0, // the number of decimal places to show
+                formatter: formatter, // handler for formatting the value before rendering
+                onUpdate: null, // callback method for every time the element is updated
+                onComplete: null // callback method for when the element finishes updating
+            };
+
+            CountTo.prototype.init = function () {
+                this.value = this.options.from;
+                this.loops = Math.ceil(this.options.speed / this.options.refreshInterval);
+                this.loopCount = 0;
+                this.increment = (this.options.to - this.options.from) / this.loops;
+            };
+
+            CountTo.prototype.dataOptions = function () {
+                var options = {
+                    from: this.$element.data('from'),
+                    to: this.$element.data('to'),
+                    speed: this.$element.data('speed'),
+                    refreshInterval: this.$element.data('refresh-interval'),
+                    decimals: this.$element.data('decimals')
+                };
+
+                var keys = Object.keys(options);
+
+                for (var i in keys) {
+                    var key = keys[i];
+
+                    if (typeof (options[key]) === 'undefined') {
+                        delete options[key];
+                    }
+                }
+
+                return options;
+            };
+
+            CountTo.prototype.update = function () {
+                this.value += this.increment;
+                this.loopCount++;
+
+                this.render();
+
+                if (typeof (this.options.onUpdate) == 'function') {
+                    this.options.onUpdate.call(this.$element, this.value);
+                }
+
+                if (this.loopCount >= this.loops) {
+                    clearInterval(this.interval);
+                    this.value = this.options.to;
+
+                    if (typeof (this.options.onComplete) == 'function') {
+                        this.options.onComplete.call(this.$element, this.value);
+                    }
+                }
+            };
+
+            CountTo.prototype.render = function () {
+                var formattedValue = this.options.formatter.call(this.$element, this.value, this.options);
+                this.$element.text(formattedValue);
+            };
+
+            CountTo.prototype.restart = function () {
+                this.stop();
+                this.init();
+                this.start();
+            };
+
+            CountTo.prototype.start = function () {
+                this.stop();
+                this.render();
+                this.interval = setInterval(this.update.bind(this), this.options.refreshInterval);
+            };
+
+            CountTo.prototype.stop = function () {
+                if (this.interval) {
+                    clearInterval(this.interval);
+                }
+            };
+
+            CountTo.prototype.toggle = function () {
+                if (this.interval) {
+                    this.stop();
+                } else {
+                    this.start();
+                }
+            };
+
+            function formatter(value, options) {
+                return value.toFixed(options.decimals);
+            }
+
+            $.fn.countTo = function (option) {
+                return this.each(function () {
+                    var $this = $(this);
+                    var data = $this.data('countTo');
+                    var init = !data || typeof (option) === 'object';
+                    var options = typeof (option) === 'object' ? option : {};
+                    var method = typeof (option) === 'string' ? option : 'start';
+
+                    if (init) {
+                        if (data) data.stop();
+                        $this.data('countTo', data = new CountTo(this, options));
+                    }
+
+                    data[method].call(data);
+                });
+            };
+        }));
 </script>
 <!-- DG - END -->
