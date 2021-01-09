@@ -6,13 +6,13 @@
 ### Integration:
 To integrate, simply paste the following into your page HTML. All styling and interaction is isolated within the component and will not affect anything else on the page
 ```
-        <script type="module" src="/dist/main.js" async></script>
+        <script type="module" src="https://dangarfield.github.io/payroll-giving-calculator/src/index.html" async></script>
         <zeo-payroll-giving></zeo-payroll-giving>
 
 ```
 
 ### Example page:
-- https://payroll-giving-calculator.now.sh/ (`/src/index.html` in this repo)
+- https://dangarfield.github.io/payroll-giving-calculator/src/index.html (`/src/index.html` in this repo)
 
 ### Notes
 - Use of Web Components with shadow dom
