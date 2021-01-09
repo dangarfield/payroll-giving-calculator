@@ -5,10 +5,9 @@
 
 ### Integration:
 To integrate, simply paste the following into your page HTML. All styling and interaction is isolated within the component and will not affect anything else on the page
-```
-        <script type="module" src="https://dangarfield.github.io/payroll-giving-calculator/dist/main.js" async></script>
-        <zeo-payroll-giving></zeo-payroll-giving>
-
+```html
+<script type="module" src="https://dangarfield.github.io/payroll-giving-calculator/dist/main.js" async></script>
+<zeo-payroll-giving></zeo-payroll-giving>
 ```
 
 ### Example page:
