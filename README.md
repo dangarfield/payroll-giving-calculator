@@ -11,7 +11,7 @@ To integrate, simply paste the following into your page HTML where you want the 
 ```
 
 ### Example page:
-- https://dangarfield.github.io/payroll-giving-calculator/src/index.html (`/src/index.html` in this repo)
+- https://dangarfield.github.io/payroll-giving-calculator/src/preview.html (`/src/index.html` in this repo)
 
 ### Notes
 - Use of Web Components with shadow dom
